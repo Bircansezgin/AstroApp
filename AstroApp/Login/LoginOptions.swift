@@ -7,12 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginOptions: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello Ataberk")
-        print("Hello Bircan")
+
     }
 
 

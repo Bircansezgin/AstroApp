@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		84102A752A86C08F00CC114D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A742A86C08F00CC114D /* AppDelegate.swift */; };
 		84102A772A86C08F00CC114D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A762A86C08F00CC114D /* SceneDelegate.swift */; };
-		84102A792A86C08F00CC114D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A782A86C08F00CC114D /* ViewController.swift */; };
+		84102A792A86C08F00CC114D /* LoginOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A782A86C08F00CC114D /* LoginOptions.swift */; };
 		84102A7C2A86C08F00CC114D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84102A7A2A86C08F00CC114D /* Main.storyboard */; };
 		84102A7E2A86C09000CC114D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84102A7D2A86C09000CC114D /* Assets.xcassets */; };
 		84102A812A86C09000CC114D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84102A7F2A86C09000CC114D /* LaunchScreen.storyboard */; };
 		84102A8C2A86C09000CC114D /* AstroAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A8B2A86C09000CC114D /* AstroAppTests.swift */; };
 		84102A962A86C09000CC114D /* AstroAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A952A86C09000CC114D /* AstroAppUITests.swift */; };
 		84102A982A86C09000CC114D /* AstroAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A972A86C09000CC114D /* AstroAppUITestsLaunchTests.swift */; };
+		84102AA52A86F7DF00CC114D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84102AA42A86F7DF00CC114D /* GoogleService-Info.plist */; };
+		84102AA82A86F94300CC114D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 84102AA72A86F94300CC114D /* FirebaseAnalytics */; };
+		84102AAA2A86F94300CC114D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 84102AA92A86F94300CC114D /* FirebaseAuth */; };
+		84102AAC2A86F94300CC114D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 84102AAB2A86F94300CC114D /* FirebaseDatabase */; };
+		84102AAE2A86F94300CC114D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 84102AAD2A86F94300CC114D /* FirebaseFirestore */; };
+		84102AB02A86F94300CC114D /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 84102AAF2A86F94300CC114D /* FirebaseInAppMessaging-Beta */; };
+		84102AB22A86F94300CC114D /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 84102AB12A86F94300CC114D /* FirebaseInAppMessagingSwift-Beta */; };
+		84102AB42A86F94300CC114D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 84102AB32A86F94300CC114D /* FirebaseStorage */; };
+		84102AB72A86FA0800CC114D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102AB62A86FA0800CC114D /* LoginViewController.swift */; };
+		84102AB92A86FFE800CC114D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102AB82A86FFE800CC114D /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +49,7 @@
 		84102A712A86C08F00CC114D /* AstroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84102A742A86C08F00CC114D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84102A762A86C08F00CC114D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84102A782A86C08F00CC114D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84102A782A86C08F00CC114D /* LoginOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptions.swift; sourceTree = "<group>"; };
 		84102A7B2A86C08F00CC114D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84102A7D2A86C09000CC114D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84102A802A86C09000CC114D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,9 @@
 		84102A912A86C09000CC114D /* AstroAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84102A952A86C09000CC114D /* AstroAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroAppUITests.swift; sourceTree = "<group>"; };
 		84102A972A86C09000CC114D /* AstroAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84102AA42A86F7DF00CC114D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84102AB62A86FA0800CC114D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84102AB82A86FFE800CC114D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84102AAC2A86F94300CC114D /* FirebaseDatabase in Frameworks */,
+				84102AAE2A86F94300CC114D /* FirebaseFirestore in Frameworks */,
+				84102AA82A86F94300CC114D /* FirebaseAnalytics in Frameworks */,
+				84102AAA2A86F94300CC114D /* FirebaseAuth in Frameworks */,
+				84102AB42A86F94300CC114D /* FirebaseStorage in Frameworks */,
+				84102AB22A86F94300CC114D /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				84102AB02A86F94300CC114D /* FirebaseInAppMessaging-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +121,12 @@
 			children = (
 				84102A742A86C08F00CC114D /* AppDelegate.swift */,
 				84102A762A86C08F00CC114D /* SceneDelegate.swift */,
-				84102A782A86C08F00CC114D /* ViewController.swift */,
+				84102AB52A86F9F500CC114D /* Login */,
 				84102A7A2A86C08F00CC114D /* Main.storyboard */,
 				84102A7D2A86C09000CC114D /* Assets.xcassets */,
 				84102A7F2A86C09000CC114D /* LaunchScreen.storyboard */,
 				84102A822A86C09000CC114D /* Info.plist */,
+				84102AA42A86F7DF00CC114D /* GoogleService-Info.plist */,
 			);
 			path = AstroApp;
 			sourceTree = "<group>";
@@ -127,6 +148,16 @@
 			path = AstroAppUITests;
 			sourceTree = "<group>";
 		};
+		84102AB52A86F9F500CC114D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84102A782A86C08F00CC114D /* LoginOptions.swift */,
+				84102AB82A86FFE800CC114D /* SignUpViewController.swift */,
+				84102AB62A86FA0800CC114D /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +174,15 @@
 			dependencies = (
 			);
 			name = AstroApp;
+			packageProductDependencies = (
+				84102AA72A86F94300CC114D /* FirebaseAnalytics */,
+				84102AA92A86F94300CC114D /* FirebaseAuth */,
+				84102AAB2A86F94300CC114D /* FirebaseDatabase */,
+				84102AAD2A86F94300CC114D /* FirebaseFirestore */,
+				84102AAF2A86F94300CC114D /* FirebaseInAppMessaging-Beta */,
+				84102AB12A86F94300CC114D /* FirebaseInAppMessagingSwift-Beta */,
+				84102AB32A86F94300CC114D /* FirebaseStorage */,
+			);
 			productName = AstroApp;
 			productReference = 84102A712A86C08F00CC114D /* AstroApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +255,9 @@
 				Base,
 			);
 			mainGroup = 84102A682A86C08F00CC114D;
+			packageReferences = (
+				84102AA62A86F94300CC114D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 84102A722A86C08F00CC114D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84102A812A86C09000CC114D /* LaunchScreen.storyboard in Resources */,
+				84102AA52A86F7DF00CC114D /* GoogleService-Info.plist in Resources */,
 				84102A7E2A86C09000CC114D /* Assets.xcassets in Resources */,
 				84102A7C2A86C08F00CC114D /* Main.storyboard in Resources */,
 			);
@@ -258,9 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84102A792A86C08F00CC114D /* ViewController.swift in Sources */,
+				84102AB72A86FA0800CC114D /* LoginViewController.swift in Sources */,
+				84102A792A86C08F00CC114D /* LoginOptions.swift in Sources */,
 				84102A752A86C08F00CC114D /* AppDelegate.swift in Sources */,
 				84102A772A86C08F00CC114D /* SceneDelegate.swift in Sources */,
+				84102AB92A86FFE800CC114D /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +648,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84102AA62A86F94300CC114D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84102AA72A86F94300CC114D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84102AA62A86F94300CC114D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		84102AA92A86F94300CC114D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84102AA62A86F94300CC114D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		84102AAB2A86F94300CC114D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84102AA62A86F94300CC114D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		84102AAD2A86F94300CC114D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84102AA62A86F94300CC114D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		84102AAF2A86F94300CC114D /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84102AA62A86F94300CC114D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		84102AB12A86F94300CC114D /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84102AA62A86F94300CC114D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		84102AB32A86F94300CC114D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84102AA62A86F94300CC114D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84102A692A86C08F00CC114D /* Project object */;
 }
