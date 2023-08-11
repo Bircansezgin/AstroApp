@@ -38,67 +38,59 @@
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you ready to learn Truth about you Destiny" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNY-de-4cE">
-                                <rect key="frame" x="16" y="505" width="348" height="56"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="Djv-sQ-NAR"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Are you ready to learn Truth about you Destiny" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNY-de-4cE">
+                                <rect key="frame" x="15" y="527.66666666666663" width="348" height="45.333333333333371"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let us be your guide in this journey" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9Q-0s-Hua">
-                                <rect key="frame" x="29" y="398" width="348" height="56"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="RMm-On-cb9"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Let us be your guide in this journey" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9Q-0s-Hua">
+                                <rect key="frame" x="30" y="430" width="348" height="22.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Toh-cR-zhq">
-                                <rect key="frame" x="76" y="70" width="241" height="206"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you ready to learn Truht" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HI5-bj-DuX">
-                                <rect key="frame" x="16" y="311" width="348" height="56"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="26v-Xr-Z3b"/>
-                                </constraints>
+                                <rect key="frame" x="15" y="333" width="339" height="22"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginPage" translatesAutoresizingMaskIntoConstraints="NO" id="Toh-cR-zhq">
+                                <rect key="frame" x="30" y="69" width="333" height="254"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="HI5-bj-DuX" firstAttribute="trailing" secondItem="yNY-de-4cE" secondAttribute="trailing" id="00d-YX-7db"/>
                             <constraint firstItem="euE-Y2-oMf" firstAttribute="top" secondItem="79l-Qo-rPb" secondAttribute="bottom" constant="16" id="0MU-1B-NyY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hQy-Dm-43B" secondAttribute="trailing" id="0e2-9t-jgH"/>
-                            <constraint firstItem="B9Q-0s-Hua" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2VN-8Z-xE7"/>
-                            <constraint firstItem="B9Q-0s-Hua" firstAttribute="top" secondItem="HI5-bj-DuX" secondAttribute="bottom" constant="31" id="4Ci-8n-FPE"/>
+                            <constraint firstItem="Toh-cR-zhq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="0hK-al-mq1"/>
                             <constraint firstItem="euE-Y2-oMf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4aD-sh-Udo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="euE-Y2-oMf" secondAttribute="bottom" constant="29" id="6Rl-qm-7ra"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hQy-Dm-43B" secondAttribute="bottom" constant="-34" id="766-9c-PUX"/>
                             <constraint firstItem="79l-Qo-rPb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="614" id="7Qj-1T-51U"/>
-                            <constraint firstItem="yNY-de-4cE" firstAttribute="top" secondItem="B9Q-0s-Hua" secondAttribute="bottom" constant="51" id="DGI-qj-xRd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HI5-bj-DuX" secondAttribute="trailing" constant="29" id="HCr-bo-68R"/>
-                            <constraint firstItem="Toh-cR-zhq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="NBb-XJ-v8M"/>
-                            <constraint firstItem="Toh-cR-zhq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="OGc-rN-qQs"/>
-                            <constraint firstItem="Toh-cR-zhq" firstAttribute="centerX" secondItem="hQy-Dm-43B" secondAttribute="centerX" id="P4P-ER-b2C"/>
-                            <constraint firstItem="B9Q-0s-Hua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="TL5-3r-r9K"/>
-                            <constraint firstItem="HI5-bj-DuX" firstAttribute="leading" secondItem="yNY-de-4cE" secondAttribute="leading" id="bKe-Pn-FA8"/>
+                            <constraint firstItem="HI5-bj-DuX" firstAttribute="top" secondItem="Toh-cR-zhq" secondAttribute="bottom" constant="10" id="DZs-Xw-kYz"/>
+                            <constraint firstItem="79l-Qo-rPb" firstAttribute="top" secondItem="yNY-de-4cE" secondAttribute="bottom" constant="100" id="FV0-H4-NbQ"/>
+                            <constraint firstItem="Toh-cR-zhq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="FmR-dp-l1M"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HI5-bj-DuX" secondAttribute="trailing" constant="39" id="Keh-aP-LdY"/>
+                            <constraint firstItem="Toh-cR-zhq" firstAttribute="height" secondItem="hQy-Dm-43B" secondAttribute="height" multiplier="0.294322" id="TYv-uf-FoS"/>
+                            <constraint firstItem="HI5-bj-DuX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="YuJ-nJ-Fhu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B9Q-0s-Hua" secondAttribute="trailing" constant="15" id="bS9-2c-4zI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Toh-cR-zhq" secondAttribute="trailing" constant="30" id="eY1-Jb-cDE"/>
                             <constraint firstItem="hQy-Dm-43B" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-70" id="h9t-NP-bTx"/>
                             <constraint firstItem="79l-Qo-rPb" firstAttribute="leading" secondItem="euE-Y2-oMf" secondAttribute="leading" id="hHB-e5-7eO"/>
+                            <constraint firstItem="yNY-de-4cE" firstAttribute="top" secondItem="B9Q-0s-Hua" secondAttribute="bottom" constant="75" id="i3i-oW-r4I"/>
                             <constraint firstItem="euE-Y2-oMf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="680" id="kEu-wP-9zU"/>
                             <constraint firstItem="hQy-Dm-43B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lbS-L3-azt"/>
-                            <constraint firstItem="B9Q-0s-Hua" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="lc3-xK-IZq"/>
-                            <constraint firstItem="HI5-bj-DuX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ofF-4h-UfO"/>
-                            <constraint firstItem="HI5-bj-DuX" firstAttribute="top" secondItem="Toh-cR-zhq" secondAttribute="bottom" constant="35" id="qjj-Iu-iWr"/>
+                            <constraint firstItem="B9Q-0s-Hua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="nTI-vM-Rp7"/>
+                            <constraint firstItem="yNY-de-4cE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="oYY-5r-aYk"/>
+                            <constraint firstItem="B9Q-0s-Hua" firstAttribute="top" secondItem="HI5-bj-DuX" secondAttribute="bottom" constant="75" id="r5E-yf-9jj"/>
                             <constraint firstItem="79l-Qo-rPb" firstAttribute="trailing" secondItem="euE-Y2-oMf" secondAttribute="trailing" id="rDM-Rf-4vh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="euE-Y2-oMf" secondAttribute="trailing" constant="23" id="uCi-OZ-qWk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yNY-de-4cE" secondAttribute="trailing" constant="30" id="w97-Q6-3ML"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -108,6 +100,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LoginPage" width="500" height="500"/>
         <image name="login" width="1080" height="1920"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
