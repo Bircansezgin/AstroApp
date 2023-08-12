@@ -316,6 +316,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Sign Up Now"/>
+                                <connections>
+                                    <action selector="signUpClick:" destination="WN6-mQ-qOp" eventType="touchUpInside" id="rfe-Am-eT3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already, have Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mP2-ny-CH4">
                                 <rect key="frame" x="123" y="790" width="147" height="18"/>
@@ -367,6 +370,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aUX-Id-uea"/>
+                    <connections>
+                        <outlet property="birthdayTextField" destination="eNi-R0-Ts3" id="RWZ-5u-s2p"/>
+                        <outlet property="emailTextField" destination="71L-yH-VVz" id="cbl-e0-1bV"/>
+                        <outlet property="haveAccountClick" destination="mP2-ny-CH4" id="Dz5-xJ-LHU"/>
+                        <outlet property="nameSurnameTextField" destination="4nN-MV-zNN" id="wUv-o7-ZHW"/>
+                        <outlet property="passwordOneStep" destination="xkZ-uO-glB" id="v50-0R-Of7"/>
+                        <outlet property="passwordTwoStep" destination="TzW-Jw-NIN" id="543-7F-yj7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="chM-In-vgo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
