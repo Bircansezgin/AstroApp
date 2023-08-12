@@ -143,6 +143,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="emailTextField:" destination="KDo-kb-9Xp" eventType="editingDidEnd" id="Hl3-Xh-n1D"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" background="login" disabledBackground="login" translatesAutoresizingMaskIntoConstraints="NO" id="qBn-C2-zTE">
                                 <rect key="frame" x="46" y="403" width="301" height="34"/>
@@ -151,6 +154,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="passwordTextField:" destination="KDo-kb-9Xp" eventType="editingDidEnd" id="fPE-GA-drN"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Log In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzd-dI-oce">
                                 <rect key="frame" x="16" y="252" width="157" height="50"/>
@@ -217,6 +223,7 @@
                     <navigationItem key="navigationItem" id="yGa-Ds-k79"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yXA-Hz-lVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="KDo-kb-9Xp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1788.5496183206105" y="-356.33802816901408"/>
         </scene>

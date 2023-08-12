@@ -26,6 +26,7 @@
 		84102AB42A86F94300CC114D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 84102AB32A86F94300CC114D /* FirebaseStorage */; };
 		84102AB72A86FA0800CC114D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102AB62A86FA0800CC114D /* LoginViewController.swift */; };
 		84102AB92A86FFE800CC114D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102AB82A86FFE800CC114D /* SignUpViewController.swift */; };
+		84102ABB2A87119C00CC114D /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102ABA2A87119C00CC114D /* UserSingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		84102AA42A86F7DF00CC114D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		84102AB62A86FA0800CC114D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		84102AB82A86FFE800CC114D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		84102ABA2A87119C00CC114D /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				84102A742A86C08F00CC114D /* AppDelegate.swift */,
 				84102A762A86C08F00CC114D /* SceneDelegate.swift */,
+				84102ABC2A8711AC00CC114D /* Model */,
 				84102AB52A86F9F500CC114D /* Login */,
 				84102A7A2A86C08F00CC114D /* Main.storyboard */,
 				84102A7D2A86C09000CC114D /* Assets.xcassets */,
@@ -156,6 +159,14 @@
 				84102AB62A86FA0800CC114D /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		84102ABC2A8711AC00CC114D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84102ABA2A87119C00CC114D /* UserSingleton.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 			files = (
 				84102AB72A86FA0800CC114D /* LoginViewController.swift in Sources */,
 				84102A792A86C08F00CC114D /* LoginOptions.swift in Sources */,
+				84102ABB2A87119C00CC114D /* UserSingleton.swift in Sources */,
 				84102A752A86C08F00CC114D /* AppDelegate.swift in Sources */,
 				84102A772A86C08F00CC114D /* SceneDelegate.swift in Sources */,
 				84102AB92A86FFE800CC114D /* SignUpViewController.swift in Sources */,
