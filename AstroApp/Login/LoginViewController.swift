@@ -28,7 +28,14 @@ class LoginViewController: UIViewController {
                 if error != nil{
                     self.makeAlert(title: "Error", message: error!.localizedDescription)
                 } else{
-                    self.makeAlert(title: "Success", message: "You Have Entered Succesfully")
+                    if let user = data?.user {
+                        if user.isEmailVerified{
+                            self.performSegue(withIdentifier: "homePG", sender: nil)
+                        }else{
+                            self.makeAlert(title: "Email Verification Error!", message: "Please confirm the account verification link sent to your e-mail.")
+                        }
+                    }
+                   
                 }
             }
         }else{

@@ -27,6 +27,7 @@
 		84102AB72A86FA0800CC114D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102AB62A86FA0800CC114D /* LoginViewController.swift */; };
 		84102AB92A86FFE800CC114D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102AB82A86FFE800CC114D /* SignUpViewController.swift */; };
 		84102ABB2A87119C00CC114D /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102ABA2A87119C00CC114D /* UserSingleton.swift */; };
+		84102ABE2A871BDD00CC114D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102ABD2A871BDD00CC114D /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		84102AB62A86FA0800CC114D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		84102AB82A86FFE800CC114D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		84102ABA2A87119C00CC114D /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
+		84102ABD2A871BDD00CC114D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				84102A742A86C08F00CC114D /* AppDelegate.swift */,
 				84102A762A86C08F00CC114D /* SceneDelegate.swift */,
+				84102ABD2A871BDD00CC114D /* HomeViewController.swift */,
 				84102ABC2A8711AC00CC114D /* Model */,
 				84102AB52A86F9F500CC114D /* Login */,
 				84102A7A2A86C08F00CC114D /* Main.storyboard */,
@@ -318,6 +321,7 @@
 				84102ABB2A87119C00CC114D /* UserSingleton.swift in Sources */,
 				84102A752A86C08F00CC114D /* AppDelegate.swift in Sources */,
 				84102A772A86C08F00CC114D /* SceneDelegate.swift in Sources */,
+				84102ABE2A871BDD00CC114D /* HomeViewController.swift in Sources */,
 				84102AB92A86FFE800CC114D /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
