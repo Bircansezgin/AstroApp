@@ -8,6 +8,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FirebaseFirestore
 
 class SignUpViewController: UIViewController {
 
@@ -16,6 +17,10 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var birthdayTextField: UITextField!
     @IBOutlet weak var passwordOneStep: UITextField!
     @IBOutlet weak var passwordTwoStep: UITextField!
+    @IBOutlet weak var birthdayTimeOf: UITextField!
+    
+    
+    let fireStoreDB = Firestore.firestore()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +30,7 @@ class SignUpViewController: UIViewController {
     
     
     @IBAction func signUpClick(_ sender: Any) {
-        if emailTextField.text != "" && nameSurnameTextField.text != "" && passwordOneStep.text != "" && passwordTwoStep.text != "" && birthdayTextField.text != ""{
+        if emailTextField.text != "" && nameSurnameTextField.text != "" && passwordOneStep.text != "" && passwordTwoStep.text != "" && birthdayTextField.text != "", birthdayTimeOf.text != ""{
             if passwordOneStep.text == passwordTwoStep.text{
                 
                 Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordOneStep.text!) { data, error in
@@ -39,6 +44,14 @@ class SignUpViewController: UIViewController {
                                 self.makeAlert(title: "Error", message: error!.localizedDescription)
                             }else{
                                 self.makeAlert(title: "Succes", message: "Send Email. Please Accept!")
+                                let userInfoDic = ["username": self.nameSurnameTextField.text!, "Birthday Date": self.birthdayTextField.text!, "Birthday Time Of": self.birthdayTimeOf.text!, "Credit" : 20] as [String : Any]
+                                self.fireStoreDB.collection("userData").addDocument(data: userInfoDic) { error in
+                                    if error != nil{
+                                        self.makeAlert(title: "Error Server", message: error!.localizedDescription)
+                                    }else{
+                                        print("userData Kaydedildi.")
+                                    }
+                                }
                             }
                         })
                     }
