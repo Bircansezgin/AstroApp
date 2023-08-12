@@ -24,8 +24,13 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+        
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        view.addGestureRecognizer(tapGesture)
+    }
+    @objc func dismissKeyboard(){
+        view.endEditing(true)
     }
     
     
@@ -43,7 +48,7 @@ class SignUpViewController: UIViewController {
                             if error != nil{
                                 self.makeAlert(title: "Error", message: error!.localizedDescription)
                             }else{
-                                self.makeAlert(title: "Succes", message: "Send Email. Please Accept!")
+                                self.makeAlert(title: "Succes", message: "KEVSER NAPAN KARDAS Send Email. Please Accept!")
                                 let userInfoDic = ["username": self.nameSurnameTextField.text!, "Birthday Date": self.birthdayTextField.text!, "Birthday Time Of": self.birthdayTimeOf.text!, "Credit" : 20] as [String : Any]
                                 self.fireStoreDB.collection("userData").addDocument(data: userInfoDic) { error in
                                     if error != nil{
