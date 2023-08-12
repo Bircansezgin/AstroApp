@@ -181,6 +181,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Log In"/>
+                                <connections>
+                                    <action selector="loginClick:" destination="WVn-WU-zFd" eventType="touchUpInside" id="Df0-PH-abU"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Forget Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5i-KC-Jzb">
                                 <rect key="frame" x="230" y="445" width="117" height="15"/>
@@ -221,6 +224,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yGa-Ds-k79"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="muc-cs-MjF" id="fB3-8u-cKG"/>
+                        <outlet property="passwordTextField" destination="qBn-C2-zTE" id="8q5-Eh-wDL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yXA-Hz-lVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="KDo-kb-9Xp" userLabel="Exit" sceneMemberID="exit"/>
