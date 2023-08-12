@@ -409,9 +409,48 @@
             </objects>
             <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rbN-pz-uPR">
+            <objects>
+                <viewController id="mTS-3F-d2c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6e5-uc-xkC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="homebackground" translatesAutoresizingMaskIntoConstraints="NO" id="6Dn-Vz-D7f">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B8D-qB-kF4">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="BFy-CL-wiy">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="StH-MJ-UXw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="top" secondItem="StH-MJ-UXw" secondAttribute="top" id="9Qa-BS-ZDQ"/>
+                            <constraint firstItem="StH-MJ-UXw" firstAttribute="trailing" secondItem="B8D-qB-kF4" secondAttribute="trailing" id="CDG-2h-RhH"/>
+                            <constraint firstItem="StH-MJ-UXw" firstAttribute="trailing" secondItem="6Dn-Vz-D7f" secondAttribute="trailing" id="Cld-k8-ogy"/>
+                            <constraint firstItem="StH-MJ-UXw" firstAttribute="bottom" secondItem="B8D-qB-kF4" secondAttribute="bottom" constant="-34" id="Wma-dd-6an"/>
+                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="leading" secondItem="StH-MJ-UXw" secondAttribute="leading" id="Ypw-Ll-H5B"/>
+                            <constraint firstItem="StH-MJ-UXw" firstAttribute="bottom" secondItem="6Dn-Vz-D7f" secondAttribute="bottom" id="cuL-0h-HEa"/>
+                            <constraint firstItem="B8D-qB-kF4" firstAttribute="top" secondItem="6e5-uc-xkC" secondAttribute="top" id="rFQ-iL-XJH"/>
+                            <constraint firstItem="B8D-qB-kF4" firstAttribute="leading" secondItem="StH-MJ-UXw" secondAttribute="leading" id="zPS-Fq-wIm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wf4-9R-RWU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2568.7022900763359" y="3.5211267605633805"/>
+        </scene>
     </scenes>
     <resources>
         <image name="LoginPage" width="500" height="500"/>
+        <image name="homebackground" width="2160" height="3840"/>
         <image name="login" width="1080" height="1920"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
