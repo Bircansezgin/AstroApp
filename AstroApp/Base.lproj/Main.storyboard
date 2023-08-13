@@ -227,7 +227,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="muc-cs-MjF" id="fB3-8u-cKG"/>
                         <outlet property="passwordTextField" destination="qBn-C2-zTE" id="8q5-Eh-wDL"/>
-                        <segue destination="mTS-3F-d2c" kind="show" identifier="homePG" id="mog-Gy-Oz7"/>
+                        <segue destination="nKX-mc-2gl" kind="show" id="HdB-UK-b5Y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yXA-Hz-lVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -424,7 +424,7 @@
             </objects>
             <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
         </scene>
-        <!--Home View Controller-->
+        <!--Anasayfa-->
         <scene sceneID="rbN-pz-uPR">
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mTS-3F-d2c" customClass="HomeViewController" customModule="AstroApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -440,6 +440,60 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="BFy-CL-wiy">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bircan Sezgin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmG-Fp-k7B">
+                                            <rect key="frame" x="166" y="120.00000000000001" width="219" height="27.666666666666671"/>
+                                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22.10.2002" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4c9-jH-TJL">
+                                            <rect key="frame" x="166" y="148.66666666666666" width="76.666666666666686" height="19"/>
+                                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terazi Burcu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYO-PE-Ebu">
+                                            <rect key="frame" x="166" y="170.66666666666666" width="98" height="19"/>
+                                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homePGProfil" translatesAutoresizingMaskIntoConstraints="NO" id="nw9-a6-TXS">
+                                            <rect key="frame" x="8" y="93" width="150" height="130"/>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yEL-qB-D7R">
+                                            <rect key="frame" x="8" y="281.66666666666669" width="377" height="63"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Terazi Burclari bugun cok iyi hissedecek. Gunes evi Merkur eve geldi, Hos gelmisss" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b14-VJ-Fmv">
+                                                    <rect key="frame" x="8" y="8" width="361" height="47"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="secondarySystemFillColor"/>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="gmG-Fp-k7B" firstAttribute="leading" secondItem="nw9-a6-TXS" secondAttribute="trailing" constant="8" symbolic="YES" id="0ob-bU-jSp"/>
+                                        <constraint firstItem="gmG-Fp-k7B" firstAttribute="leading" secondItem="4c9-jH-TJL" secondAttribute="leading" id="4hF-Zd-9vp"/>
+                                        <constraint firstItem="SYO-PE-Ebu" firstAttribute="top" secondItem="4c9-jH-TJL" secondAttribute="bottom" constant="3" id="BrM-Qw-a7u"/>
+                                        <constraint firstItem="nw9-a6-TXS" firstAttribute="leading" secondItem="BFy-CL-wiy" secondAttribute="leading" constant="8" id="Gn5-Mc-z1n"/>
+                                        <constraint firstItem="4c9-jH-TJL" firstAttribute="top" secondItem="gmG-Fp-k7B" secondAttribute="bottom" constant="1" id="Lq4-Dk-60n"/>
+                                        <constraint firstItem="yEL-qB-D7R" firstAttribute="height" secondItem="BFy-CL-wiy" secondAttribute="height" multiplier="0.0739437" id="O8V-x1-f0h"/>
+                                        <constraint firstItem="gmG-Fp-k7B" firstAttribute="top" secondItem="BFy-CL-wiy" secondAttribute="top" constant="120" id="S2b-4F-y7b"/>
+                                        <constraint firstItem="yEL-qB-D7R" firstAttribute="top" secondItem="BFy-CL-wiy" secondAttribute="top" constant="281.67000000000002" id="V5F-mq-sYv"/>
+                                        <constraint firstItem="yEL-qB-D7R" firstAttribute="leading" secondItem="BFy-CL-wiy" secondAttribute="leading" constant="8" id="ZMI-ne-2ev"/>
+                                        <constraint firstAttribute="trailing" secondItem="yEL-qB-D7R" secondAttribute="trailing" constant="8" id="cXF-ag-cfF"/>
+                                        <constraint firstItem="4c9-jH-TJL" firstAttribute="leading" secondItem="SYO-PE-Ebu" secondAttribute="leading" id="dkP-51-ZDL"/>
+                                        <constraint firstItem="nw9-a6-TXS" firstAttribute="height" secondItem="BFy-CL-wiy" secondAttribute="height" multiplier="0.152582" id="epI-Ai-Kik"/>
+                                        <constraint firstItem="gmG-Fp-k7B" firstAttribute="trailing" secondItem="BFy-CL-wiy" secondAttribute="trailingMargin" id="jwq-cL-u4t"/>
+                                        <constraint firstAttribute="trailing" secondItem="nw9-a6-TXS" secondAttribute="trailing" constant="235" id="o0h-0g-6fZ"/>
+                                        <constraint firstItem="nw9-a6-TXS" firstAttribute="top" secondItem="BFy-CL-wiy" secondAttribute="top" constant="93" id="o7T-Md-6la"/>
+                                        <constraint firstItem="4c9-jH-TJL" firstAttribute="centerY" secondItem="nw9-a6-TXS" secondAttribute="centerY" id="q8J-XG-KqL"/>
+                                    </constraints>
                                 </view>
                                 <blurEffect style="dark"/>
                             </visualEffectView>
@@ -447,27 +501,87 @@
                         <viewLayoutGuide key="safeArea" id="StH-MJ-UXw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="leading" secondItem="StH-MJ-UXw" secondAttribute="leading" id="Hl0-db-Vxz"/>
-                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="trailing" secondItem="B8D-qB-kF4" secondAttribute="trailing" id="IFJ-aH-P5V"/>
-                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="centerX" secondItem="6e5-uc-xkC" secondAttribute="centerX" id="Jpm-3A-Oro"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="6Dn-Vz-D7f" secondAttribute="bottom" constant="-34" id="KaS-uD-lhQ"/>
-                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="bottom" secondItem="B8D-qB-kF4" secondAttribute="bottom" id="U4V-21-Flv"/>
-                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="centerY" secondItem="6e5-uc-xkC" secondAttribute="centerY" id="fod-Y0-EyN"/>
-                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="top" secondItem="B8D-qB-kF4" secondAttribute="top" id="tdj-Pj-qZs"/>
-                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="leading" secondItem="B8D-qB-kF4" secondAttribute="leading" id="yHM-ki-H9W"/>
+                            <constraint firstAttribute="bottom" secondItem="B8D-qB-kF4" secondAttribute="bottom" id="5zZ-G4-YRu"/>
+                            <constraint firstItem="B8D-qB-kF4" firstAttribute="top" secondItem="6e5-uc-xkC" secondAttribute="top" id="7fL-cx-Tkr"/>
+                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="top" secondItem="6e5-uc-xkC" secondAttribute="top" id="90j-KT-Y1W"/>
+                            <constraint firstItem="B8D-qB-kF4" firstAttribute="trailing" secondItem="StH-MJ-UXw" secondAttribute="trailing" id="EZG-mJ-lFC"/>
+                            <constraint firstAttribute="bottom" secondItem="6Dn-Vz-D7f" secondAttribute="bottom" id="Kqm-Ja-S1Y"/>
+                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="trailing" secondItem="StH-MJ-UXw" secondAttribute="trailing" id="VFr-pV-FKt"/>
+                            <constraint firstItem="6Dn-Vz-D7f" firstAttribute="leading" secondItem="StH-MJ-UXw" secondAttribute="leading" id="q7A-yM-UZW"/>
+                            <constraint firstItem="B8D-qB-kF4" firstAttribute="leading" secondItem="StH-MJ-UXw" secondAttribute="leading" id="x7o-tQ-Szu"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Anasayfa" image="house.fill" catalog="system" selectedImage="house" id="ZYS-QU-XOq"/>
                     <navigationItem key="navigationItem" id="TTr-xB-PgK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wf4-9R-RWU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2756" y="4"/>
+            <point key="canvasLocation" x="4325.9541984732823" y="-468.3098591549296"/>
+        </scene>
+        <!--Burc karsilastir-->
+        <scene sceneID="OpF-pV-WIE">
+            <objects>
+                <viewController id="GYg-Tb-nZe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="spi-j7-CkF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5zV-rC-vcm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Burc karsilastir" image="person.3.fill" catalog="system" selectedImage="person.3" id="za6-8D-9A8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VPm-fG-vVw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4364" y="389"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="vb6-79-Aiy">
+            <objects>
+                <viewController id="MBI-Wx-fEe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hWQ-nC-6VA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Le2-8K-7Qx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="XDy-m2-ziR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KdT-xM-h1D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5239" y="-299"/>
+        </scene>
+        <!--Tabbar View Controller-->
+        <scene sceneID="ES1-6o-D0g">
+            <objects>
+                <tabBarController storyboardIdentifier="tabbar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nKX-mc-2gl" customClass="tabbarViewController" customModule="AstroApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Q1E-ms-yyx"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FqM-Kc-xvP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="mTS-3F-d2c" kind="relationship" relationship="viewControllers" id="iT7-aT-HZo"/>
+                        <segue destination="GYg-Tb-nZe" kind="relationship" relationship="viewControllers" id="Rsy-hm-3Et"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zvs-fI-Nxe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3465" y="3"/>
         </scene>
     </scenes>
     <resources>
         <image name="LoginPage" width="500" height="500"/>
+        <image name="homePGProfil" width="450" height="450"/>
         <image name="homebackground" width="2160" height="3840"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="login" width="1080" height="1920"/>
+        <image name="person.3" catalog="system" width="128" height="62"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
+        <systemColor name="secondarySystemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

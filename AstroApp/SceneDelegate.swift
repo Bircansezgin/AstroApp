@@ -15,13 +15,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     
         guard let _ = (scene as? UIWindowScene) else { return }
-        
+
         if let currentUser = Auth.auth().currentUser {
                 // Kullanıcı giriş yapmış ise
                 if currentUser.isEmailVerified {
                     // Email adresi doğrulanmış ise
                     let board = UIStoryboard(name: "Main", bundle: nil)
-                    let tabbar = board.instantiateViewController(identifier: "HomeViewController") as! HomeViewController
+                    let tabbar = board.instantiateViewController(identifier: "tabbar") as! UITabBarController
                     window?.rootViewController = tabbar
                 } else {
                     // Email adresi henüz doğrulanmamış ise, doğrulama ekranına yönlendirin veya uygun bir mesaj gösterin.

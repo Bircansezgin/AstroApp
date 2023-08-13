@@ -28,6 +28,7 @@
 		84102AB92A86FFE800CC114D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102AB82A86FFE800CC114D /* SignUpViewController.swift */; };
 		84102ABB2A87119C00CC114D /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102ABA2A87119C00CC114D /* UserSingleton.swift */; };
 		84102ABE2A871BDD00CC114D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102ABD2A871BDD00CC114D /* HomeViewController.swift */; };
+		84102AC02A879F8C00CC114D /* tabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102ABF2A879F8C00CC114D /* tabbarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		84102AB82A86FFE800CC114D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		84102ABA2A87119C00CC114D /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 		84102ABD2A871BDD00CC114D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84102ABF2A879F8C00CC114D /* tabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				84102ABC2A8711AC00CC114D /* Model */,
 				84102AB52A86F9F500CC114D /* Login */,
 				84102A7A2A86C08F00CC114D /* Main.storyboard */,
+				84102ABF2A879F8C00CC114D /* tabbarViewController.swift */,
 				84102A7D2A86C09000CC114D /* Assets.xcassets */,
 				84102A7F2A86C09000CC114D /* LaunchScreen.storyboard */,
 				84102A822A86C09000CC114D /* Info.plist */,
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84102AC02A879F8C00CC114D /* tabbarViewController.swift in Sources */,
 				84102AB72A86FA0800CC114D /* LoginViewController.swift in Sources */,
 				84102A792A86C08F00CC114D /* LoginOptions.swift in Sources */,
 				84102ABB2A87119C00CC114D /* UserSingleton.swift in Sources */,
